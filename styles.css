@@ -1,0 +1,43 @@
+/* Reseta alguns estilos padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Estilo para o conteúdo principal */
+.content {
+    background-color: #001eff92;
+ 
+    padding: 40px ; /* Padding dentro do box */
+    margin: 10px 20px 10px; /* Margens laterais e inferior */
+    border: 2px solid #000dff7e; /* Borda do box */
+    box-sizing: border-box; /* Inclui a borda e o padding no cálculo da largura */
+    height: 400px;
+    width: 400px;
+
+    
+}
+
+
+.image {
+    display: block;
+    max-width: 100%; 
+    height: auto; 
+    border: 2px solid #0314ffa6; 
+position: relative;
+}
+.jogo {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 5px;
+    color: #8b00fdfe;
+    background-color: rgba(0, 0, 0, 0.5); 
+    text-shadow: 10px 10px 10px rgb(0, 0, 0); 
+}
